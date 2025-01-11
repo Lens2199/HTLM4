@@ -1,15 +1,48 @@
 .header{
   text-align: center;
 }
-.main {
-  padding-top: 100px;
-  padding-left: 150px;
+.timeline{
+  position: relative;
+  padding-left: 40px;
+
 }
-.main ul li{
+
+.timeline ul::before{
+  content: "";
+  position: absolute;
+  left:5px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: black;
+
+}.timeline ul{
   list-style: none;
-  line-height: 60px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+ }
+
+ .timeline-item{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   position: relative;
+ }
+
+ .dot{
+   flex-shrink: 0; /* Prevent shrinking */
+   width: 12px;
+   height: 12px;
+   background-color: black;
+   border-radius: 50%; /* Makes the dot circular */
+ }
+
+/* Timeline content styling */
+.timeline-content {
+  font-size: 16px;
+
 }
-
-
-
-
