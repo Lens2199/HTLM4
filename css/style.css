@@ -1,8 +1,15 @@
 .header{
   text-align: center;
 }
-.main{
-  text-align: center;
- padding: 50px;
+.main {
+  padding-top: 100px;
+  padding-left: 150px;
 }
+.main ul li{
+  list-style: none;
+  line-height: 60px;
+}
+
+
+
 
