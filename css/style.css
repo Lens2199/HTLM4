@@ -1,9 +1,13 @@
 .header{
   text-align: center;
+  padding-top: 20px;
 }
 .timeline{
+  display: flex;
   position: relative;
-  padding-left: 40px;
+  justify-content: center;
+  padding-top: 60px;
+
 
 }
 
@@ -45,4 +49,9 @@
 .timeline-content {
   font-size: 16px;
 
+}
+.timeline-date {
+  position: relative;
+  font-size: 14px;
+  color: darkred;
 }
