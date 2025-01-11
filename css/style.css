@@ -53,5 +53,18 @@
 .timeline-date {
   position: relative;
   font-size: 14px;
-  color: darkred;
+  color: grey;
+}
+
+footer{
+  text-align: center;
+  padding-top: 60px;
+}
+
+button{
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+
 }
